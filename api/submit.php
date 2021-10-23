@@ -18,11 +18,11 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         setcookie("slabs_iden", $streamlabs_identifier_gen, 99999999999, "/");
     }
 
-    if(!isset($_COOKIE["slabs_iden"])) {
+    if(!isset($_COOKIE["Credit"])) {
         setcookie("Credit", "Made By ChokunPlayZ", 99999999999, "/");
     }
     
-    $tmgift = new TG();
+    $tmgift = new TMWAPI();
     $trequest = $tmgift->VoucherCode('0635414659', $giftlink, true);
     if ($trequest['code'] === 200) {
         header("Location: ".$web_url."?result=1");

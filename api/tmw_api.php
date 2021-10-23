@@ -6,7 +6,7 @@ require ('./config.php');
 // YouTube: ChokunPlayZ
 // Instragram : @chokunplayz 
 
-class TG
+class TMWAPI
 {
     public function fetch($method = null, $url = null, $headers = array(), $data = null)
     {
