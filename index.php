@@ -21,13 +21,13 @@ Instragram : @chokunplayz
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title><?php echo($title_name); ?>"></title>
+        <title><?php echo($title_name); ?></title>
         <link rel="stylesheet" href="<?php echo($web_url); ?>assets/style.css">
     </head>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="<?php echo($web_url); ?>">
-                <strong><?php echo($site_name); ?>"></strong>
+                <strong><?php echo($site_name); ?></strong>
             </a>
 
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -41,33 +41,6 @@ Instragram : @chokunplayz
             <a class="navbar-item" href="<?php echo($web_url); ?>">
                 หน้าหลัก
             </a>
-
-            <a class="navbar-item" href="<?php echo($web_url); ?>how-to-use">
-                การใช้งาน
-            </a>
-
-            <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                อื่นๆ
-                </a>
-
-                <div class="navbar-dropdown">
-                    <a class="navbar-item" href="<?php echo($web_url); ?>tos">
-                        ข้อกำหนดและเงื่อนไข
-                    </a>
-                    <a class="navbar-item" href="<?php echo($web_url); ?>privacy">
-                        นโยบายความเป็นส่วนตัว
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="<?php echo($web_url); ?>contact">
-                        ติดต่อ
-                    </a>
-                    <hr class="navbar-divider">
-                    <a class="navbar-item" href="<?php echo($web_url); ?>report-a-problem">
-                        รายงานปัญหา
-                    </a>
-                </div>
-            </div>
         </div>
     </nav>
     <body>
