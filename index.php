@@ -108,10 +108,6 @@ Instragram : @chokunplayz
                                 <input type="checkbox" name="remember-username">
                                 จดจำชื่อที่ใช้โดเนท
                             </label><br>
-                            <label class="checkbox">
-                                <input type="checkbox" required>
-                                ฉันยอมรับ <a href="<?php echo($web_url); ?>tos">ข้อกำหนดและเงื่อนไข</a>
-                            </label>
                             <br><br>
                             <div class="control">
                                 <button class="button is-link" name="send" value="Send">โดเนท</button>

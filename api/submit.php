@@ -4,6 +4,11 @@ include './api/linenoti.php';
 include './api/tmw_api.php';
 include './config.php';
 
+// By ChokunPlayZ
+// TikTok: @realchokunplayz
+// YouTube: ChokunPlayZ
+// Instragram : @chokunplayz
+
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['dusername'];
     $giftlink = $_POST['gift-link'];
@@ -63,4 +68,10 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         return;
     }
 }
+
+// By ChokunPlayZ
+// TikTok: @realchokunplayz
+// YouTube: ChokunPlayZ
+// Instragram : @chokunplayz
+
 ?>
