@@ -4,6 +4,8 @@
 // YouTube: ChokunPlayZ
 // Instragram : @chokunplayz
 
+$twn_number = "ใส่เบอร์วอลเล็ต";
+
 $line_token = "LINE NOTIFY TOKEN HERE";
 
 $streamlabs_access_token = "STREAMLABS ACCESS TOKEN HERE";

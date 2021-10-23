@@ -28,7 +28,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     
     $tmgift = new TMWAPI();
-    $trequest = $tmgift->VoucherCode('0635414659', $giftlink, true);
+    $trequest = $tmgift->VoucherCode($twn_number, $giftlink, true);
     if ($trequest['code'] === 200) {
         header("Location: ".$web_url."?result=1");
         $slabs_iden = $_COOKIE["slabs_iden"];
